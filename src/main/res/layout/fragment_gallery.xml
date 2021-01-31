@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="250dp"
+        android:background="@drawable/bg1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_height="80dp" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="6 Mobile Recharge    only899"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="Benefits - 6 Recharge Of Rs249"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn1"
+            android:background="@drawable/rectangle"
+            android:layout_marginLeft="90dp"
+            android:text="BUY"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="250dp"
+        android:background="@drawable/bg1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_height="80dp" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="12 Mobile Recharge    only1299"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="Benefits - 12 Recharge Of Rs249"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rectangle"
+            android:id="@+id/btn2"
+            android:layout_marginLeft="90dp"
+            android:text="BUY"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="250dp"
+        android:background="@drawable/bg1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="6 DTH Recharge    only1299"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="Benefits - 6 Recharge Of Rs300"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:id="@+id/btn3"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rectangle"
+            android:layout_marginLeft="90dp"
+            android:text="BUY"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="250dp"
+        android:background="@drawable/bg1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_height="80dp" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="12 DTH Recharge    only1999"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="Benefits - 12 Recharge Of Rs300"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:id="@+id/btn4"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rectangle"
+            android:layout_marginLeft="90dp"
+            android:text="BUY"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

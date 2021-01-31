@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pakhi_enterprise.ui.home.HomeFragment"
+        android:label="Offer"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.pakhi_enterprise.ui.gallery.GalleryFragment"
+        android:label="Buy Recharge"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.pakhi_enterprise.ui.slideshow.SlideshowFragment"
+        android:label="Join Us"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_recharge"
+        android:name="com.example.pakhi_enterprise.recharge_history"
+        android:label="Recharge History"
+        tools:layout="@layout/fragment_recharge_history"/>
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.example.pakhi_enterprise.Contact_us"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact_us"/>
+    <fragment
+        android:id="@+id/nav_terms"
+        android:name="com.example.pakhi_enterprise.TermsAndCondition"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_terms_and_condition"/>
+</navigation>
